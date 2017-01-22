@@ -1,7 +1,7 @@
 <h1>Cookbook-App</h1>
 
 <%= @recipes.each do |recipe| %>
-  <h2> Title: <a href="recipes/<%= recipe.id %>"><%= recipe.title%></a></h2>
+  <h2> Title: <a href="/recipes/<%= recipe.id %>"><%= recipe.title%></a></h2>
   <h4> Chef: <%= recipe.chef%></h4>
   <h3> Ingredients: <%= recipe.ingredients%> </h3>
   <h3> Directions: <%= recipe.directions %> </h3>
