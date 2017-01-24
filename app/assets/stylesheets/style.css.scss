@@ -1,12 +1,23 @@
 
-$main-color: red;
+$main-color: white;
 
+body{
+  font-family: Impact,Haettenschweiler,"Franklin Gothic Bold",Charcoal,"Helvetica Inserat","Bitstream Vera Sans Bold","Arial Black","sans serif";
+  background-image: url('cheap_diagonal_fabric.png');
+}
 
 h1{
   color: $main-color;
 }
 
 h3{
-  background-color: $main-color;
+  color: $main-color;
 }
 
+.well img {
+  width: 100%;
+}
+
+.index-recipe {
+  height: 550px;
+}
