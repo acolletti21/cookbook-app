@@ -13,7 +13,7 @@ class Recipe < ApplicationRecord
 
   def friendly_prep_time
     hours = prep_time.to_i / 60
-    minutes = prep_time % 60
+    minutes = prep_time.to_i % 60
 
     time_message = ""
     time_message += "#{hours} #{"Hour".pluralize(hours)}" if hours > 0
